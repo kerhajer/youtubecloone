@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0px}
+
+.Avatar 
+{  width: 50px;
+  height: 50px;
+  border-radius: 50%}
+
+
+.Details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Name 
+{  font-size: 13px;
+  font-weight: 500;}
+
+.Date 
+{  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.Text 
+{  font-size: 14px;}
+.edit{
+  margin-left: 25px;
+}
+.NewComment 
+{  display: flex;
+  align-items: center;
+  gap: 10px}
+
+
+
+
+.Input
+{  border: none;
+  border-bottom: 1px solid rgb(245, 243, 243);
+  color: black;
+  background-color: transparent;
+  outline: none;
+  padding: 5px;
+  width: 100%;}
